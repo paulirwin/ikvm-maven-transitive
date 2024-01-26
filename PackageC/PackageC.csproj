@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>2.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.7" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <MavenReference Include="org.apache.commons:commons-configuration2" Version="2.9.0" />
+  </ItemGroup>
+
+</Project>
